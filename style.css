@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbit&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+* {
+  font-size: 1.5rem;
+}
+body {
+  margin: 0;
+}
+.page-title {
+  font-family: "Gasoek One", sans-serif;
+  color: #fff;
+  background-color: #6464cd;
+  padding: 2rem;
+  font-size: 5rem;
+  text-align: center;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9696ff;
+  padding: 2rem;
+  font-family: "Gasoek One", sans-serif;
+  color: #fff;
+}
+#input {
+  margin: 0 0.5rem;
+  background-color: transparent;
+  border: 0;
+  border-bottom: #6464cd solid 0.3rem;
+}
+button {
+  background-color: transparent;
+  border: 0;
+  font-family: "Gasoek One", sans-serif;
+  color: #fff;
+}
+button:hover {
+  background-color: #6464cd;
+  border-radius: 2rem;
+}
+
+.card-img,
+.card-list > div {
+  width: 20rem;
+}
+.card-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #e5e5f6;
+}
+.card-list > div {
+  margin: 1rem auto;
+  background-color: #c8c8ff;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.card-overview {
+  font-size: 1rem;
+}
