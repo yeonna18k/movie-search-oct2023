@@ -5,7 +5,7 @@ html {
   font-size: 62.5%;
 }
 * {
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 body {
   margin: 0;
@@ -46,7 +46,7 @@ button:hover {
 
 .card-img,
 .card-list > div {
-  width: 20rem;
+  width: 35rem;
 }
 .card-list {
   display: grid;
@@ -54,11 +54,11 @@ button:hover {
   background-color: #e5e5f6;
 }
 .card-list > div {
-  margin: 1rem auto;
+  margin: 3rem auto;
   background-color: #c8c8ff;
-  padding: 1rem;
-  border-radius: 1rem;
+  padding: 2rem;
+  border-radius: 2rem;
 }
 .card-overview {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
